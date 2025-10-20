@@ -26,6 +26,6 @@
     ]
   },
  	"url": "https://github.com/cesarfisico/13thage-brasil",
-	"manifest": "https://raw.githubusercontent.com/cesarfisico/13thage-brasil/main/module.json"
+	"manifest": "https://raw.githubusercontent.com/cesarfisico/13thage-brasil/main/module.json",
 	"download": "https://github.com/cesarfisico/13thage-brasil/archive/refs/heads/main.zip"
 }
