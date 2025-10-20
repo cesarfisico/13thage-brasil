@@ -9,8 +9,8 @@
          "path": "languages/pt-br.json"
       }
    ],
-  "relationships":{
-    "systems":[
+   "relationships":{
+   "systems":[
       {
         "id": "archmage",
         "type": "system",
@@ -26,5 +26,5 @@
     ]
   },
  	"url": "https://github.com/cesarfisico/13thage-brasil",
-	"manifest": "https://github.com/cesarfisico/13thage-brasil/blob/main/module.json"
+	"manifest": "https://raw.githubusercontent.com/cesarfisico/13thage-brasil/main/module.json"
 }
