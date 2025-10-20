@@ -1,7 +1,7 @@
 {
-    "id": "13thage-brasil",
- "title":"13ª Era - Português (Brasileiro)",
-  "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de 13º Era (ficha e alguns outros termos básicos)</p>",
+   "id": "13thage-brasil",
+   "title":"13ª Era - Português (Brasileiro)",
+   "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de 13º Era (ficha e alguns outros termos básicos)</p>",
    "languages":[
       {
          "lang": "pt-BR",
@@ -9,22 +9,6 @@
          "path": "languages/pt-br.json"
       }
    ],
-   "relationships":{
-   "systems":[
-      {
-        "id": "archmage",
-        "type": "system",
-        "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/archmage/-/raw/master/system.json"
-      }
-    ],
-    "requires":[
-      {
-        "id":"babele",
-        "type":"module",
-        "manifest":"https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
-      }
-    ]
-  },
  	"url": "https://github.com/cesarfisico/13thage-brasil",
 	"manifest": "https://raw.githubusercontent.com/cesarfisico/13thage-brasil/main/module.json",
 	"download": "https://github.com/cesarfisico/13thage-brasil/archive/refs/heads/main.zip"
