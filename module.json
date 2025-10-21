@@ -1,15 +1,53 @@
 {
-   "id": "13thage-brasil",
-   "title":"13ª Era - Português (Brasileiro)",
-   "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de 13º Era (ficha e alguns outros termos básicos)</p>",
-   "languages":[
+    "id": "13thage-brasil",
+    "title":"13ª Era - Português (Brasileiro)",
+    "description": "<p>Adiciona o idioma Português (Brasil) para o sistema de 13º Era (ficha e alguns outros termos básicos)</p>",
+	"authors": [
+        {
+            "name": "cesar.fisico",
+            "flags": {}
+        }
+    ],
+	"url": "https://github.com/cesarfisico/13thage-brasil",
+    "readme": "https://github.com/cesarfisico/13thage-brasil/blob/main/README.md",
+    "manifest": "https://github.com/cesarfisico/13thage-brasil/blob/main/module.json",
+    "download": "https://github.com/cesarfisico/13thage-brasil/archive/refs/heads/main.zip",
+    "version": "1.0",
+	"compatibility": {
+        "minimum": "10",
+        "verified": "13"
+    },
+	 "esmodules": [
+        "13thage-brasil.js"
+    ],
+    "languages":[
       {
          "lang": "pt-BR",
          "name": "Português (Brasil)",
          "path": "languages/pt-br.json"
+         "flags": {}
       }
    ],
- 	"url": "https://github.com/cesarfisico/13thage-brasil",
-	"manifest": "https://raw.githubusercontent.com/cesarfisico/13thage-brasil/main/module.json",
-	"download": "https://github.com/cesarfisico/13thage-brasil/archive/refs/heads/main.zip"
+   "relationships":{
+         "systems":[
+            {
+              "id": "archmage",
+              "type": "system",
+              "manifest": "https://gitlab.com/asacolips-projects/foundry-mods/archmage/-/raw/1.24.1/system.json"
+      }
+    ],
+    "requires":[
+      {
+        "id":"babele",
+        "type":"module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {
+            "minimum": "2.3.3",
+            "verified": "2.3.3"
+      }
+	  }
+    ]
+  }
+ 	"url": "",
+	"manifest": ""
 }
